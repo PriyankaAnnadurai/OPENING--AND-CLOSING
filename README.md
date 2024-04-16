@@ -35,7 +35,7 @@ cv2.putText(img, 'Priyanka(AIDS)', (15, 200), font, 5, (255), 10, cv2.LINE_AA)
 cv2.imshow('created_text', img)
 cv2.waitKey(0)
 ```
-### Create ths structured element
+### Create the structured element
 ```py
 struct_ele = np.ones((9, 9), np.uint8)
 ```
