@@ -36,17 +36,17 @@ cv2.imshow('created_text', img)
 cv2.waitKey(0)
 ```
 ### Create ths structured element
-```
+```py
 struct_ele = np.ones((9, 9), np.uint8)
 ```
 ### Display the result of Opening
-```
+```py
 opening = cv2.morphologyEx(img, cv2.MORPH_OPEN, struct_ele)
 cv2.imshow('Opening', opening)
 cv2.waitKey(0)
 ```
 ### Display the result of Closing
-```
+```py
 closing = cv2.morphologyEx(img, cv2.MORPH_CLOSE, struct_ele)
 cv2.imshow('Closing', closing)
 cv2.waitKey(0)
